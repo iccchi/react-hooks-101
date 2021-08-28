@@ -1,4 +1,4 @@
-import { action } from "commander";
+
 import { ADD_OPERATION_LOG, DELETE_ALL_OPERATION_LOGS } from "../actions";
 
 export const operationLogs = (state=[], action) => {
